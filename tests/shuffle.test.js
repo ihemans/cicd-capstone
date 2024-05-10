@@ -1,5 +1,5 @@
 const { test, expect, describe } = require('@jest/globals');
-const shuffle = require('../src/js/shuffle');
+const shuffle = require('../src/js/shuffle.js');
 
 describe("shuffle", () => {
     it("should shuffle an array", () => {
@@ -14,4 +14,4 @@ describe("shuffle", () => {
       const shuffledArr = shuffle([...arr]);
       expect(shuffledArr.length).toEqual(arr.length);
     });
-});
+})

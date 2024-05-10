@@ -1,3 +1,4 @@
+/*global module*/
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -6,6 +7,7 @@ function shuffle(a) {
   return a;
 }
 
+module.exports = shuffle;
 
 
-module.exports = shuffle; 
+

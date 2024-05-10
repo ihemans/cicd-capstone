@@ -1,5 +1,5 @@
 // import _ from 'lodash'
-import {shuffle} from './shuffle.js'
+import shuffle from './shuffle.js'
 
 function rand (max) {
   return Math.floor(Math.random() * max)
